@@ -53,10 +53,14 @@ assign DIFF = a ^ b ^ cin;
 assign BO =  (a & b) | ((a ^ b) & cin);
 endmodule
 
+**RTL realization**
+
+![Screenshot (51)](https://github.com/HemapriyaOfficial/FULL_ADDER_SUBTRACTOR/assets/147114275/c405318f-0095-44a8-aa38-9a37171f4bd1)
 
 **Output**
+
 ![Screenshot (50)](https://github.com/HemapriyaOfficial/FULL_ADDER_SUBTRACTOR/assets/147114275/0e8dc2dd-2e2b-4818-8617-5c0ab7e87692)
-![Screenshot (51)](https://github.com/HemapriyaOfficial/FULL_ADDER_SUBTRACTOR/assets/147114275/c405318f-0095-44a8-aa38-9a37171f4bd1)
+
 
 
 
