@@ -43,7 +43,7 @@ Borrow out = A'Bin + A'B + BBin
 Write the detailed procedure here
 
 **Program:**
-
+```
 module fulladdsub(a,b,cin,sum,carry,BO,DIFF);
 input a,b,cin;
 output sum,carry,BO,DIFF;
@@ -52,7 +52,7 @@ assign cout = (a & b) | (b & cin) | (a & cin);
 assign DIFF = a ^ b ^ cin;
 assign BO =  (a & b) | ((a ^ b) & cin);
 endmodule
-
+```
 **RTL realization**
 
 ![Screenshot (51)](https://github.com/HemapriyaOfficial/FULL_ADDER_SUBTRACTOR/assets/147114275/c405318f-0095-44a8-aa38-9a37171f4bd1)
